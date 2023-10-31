@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(141, 122, 104);
+    background-color: #907677;
 }
 
 body {
@@ -22,20 +22,21 @@ li {
 
 li a {
     display: flex;
+    font-size: large;
     color: black;
     padding: 40px 30px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: rgb(99, 87, 76);
+    background-color: #7e696a
 }
 
 .secao1 {
     display: flex;
     background-image: url(hero.jpg);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 900px;
     display: flex;
     color: white;
     flex-direction: column;
@@ -45,7 +46,7 @@ li a:hover {
 
 .botao1 {
     padding: 10px 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.85);
     color: black;
     border: 1px solid rgb(194, 179, 179);
     cursor: pointer;
@@ -60,10 +61,10 @@ li a:hover {
 .secao2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 40px;
+    margin: 40px;
 }
 
 .galeria {
@@ -74,33 +75,99 @@ li a:hover {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
-  }
-  
-  .galeria-img {
+}
+
+.galeria-img {
     width: 100%;
-    height: 200px;
+    height: 360px;
     object-fit: fill;
-  }
-  .area{
-    background-color: rgb(19, 18, 18);
-  }
-  .secao3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 40px;
-        color: white;
-        padding: 80px;
-    }
-    .flex-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        color: white;
-    }
-    .item{
-        display: flex;
-        align-items: center;
-    }
+}
+
+.area {
+    background-color: #191c08;
+}
+
+.secao3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    color: white;
+    padding: 80px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.cor {
+    font-size: large;
+    color: #b7c135;
+    font-weight: 700;
+}
+
+svg {
+    display: flex;
+    fill: #b7c135
+}
+
+.secao4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin: 40px;
+    color: #b7c135;
+}
+
+.email {
+    border: solid 2px #b7c135;
+    border-radius: 3px;
+    height: 35px;
+    width: 400px;
+}
+
+.cadastro {
+    margin-left: 10px;
+    padding: 13px 20px;
+    background-color: #b7c135;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333a0b;
+}
+
+.secao5 {
+    display: flex;
+    flex-direction: column;
+    color: #b7c135;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 40px;
+}
